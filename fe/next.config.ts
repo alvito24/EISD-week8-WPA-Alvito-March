@@ -4,6 +4,7 @@ import withPWAInit from "@ducanh2912/next-pwa";
 const withPWA = withPWAInit({
   dest: "public",
   // Disable hanya saat development — untuk test, jalankan `npm run build && npm start`
+
   disable: process.env.NODE_ENV === "development",
   register: true,
 
